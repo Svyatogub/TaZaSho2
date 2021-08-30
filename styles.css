@@ -9,10 +9,12 @@ body {
 
 .topper {
     background-color: yellow;
-}
-.toppertxt {
-    font-size: 100px;
-    text-align: center;
+    height: 300px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding-left: 30%;
+    box-shadow: 0px -10px 90px 0px rgba(0, 0, 0, 8) inset
 }
 .topperimg {
     width: 300px;
