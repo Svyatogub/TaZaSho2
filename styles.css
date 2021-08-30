@@ -1,3 +1,19 @@
-.misha {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: fantasy;
+}
+
+.topper {
+    background-color: yellow;
+}
+.toppertxt {
     font-size: 100px;
+    text-align: center;
+}
+.topperimg {
+    width: 300px;
 }
