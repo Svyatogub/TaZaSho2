@@ -19,3 +19,11 @@ body {
 .topperimg {
     width: 300px;
 }
+.toppericons {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-left: 600px;
+    margin-top: 250px;
+    list-style: none;
+}
