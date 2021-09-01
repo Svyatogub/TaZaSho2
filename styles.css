@@ -23,7 +23,9 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    margin-left: 600px;
+    margin-left: 800px;
     margin-top: 250px;
     list-style: none;
+    letter-spacing: 5px;
+    font-size: 30px;
 }
