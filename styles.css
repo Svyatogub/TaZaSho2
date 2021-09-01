@@ -3,11 +3,9 @@
     padding: 0;
 }
 
-body {
-    font-family: fantasy;
-}
-
+/**Topper**/
 .topper {
+    font-family: fantasy;
     background-color: yellow;
     height: 300px;
     display: flex;
@@ -28,4 +26,74 @@ body {
     list-style: none;
     letter-spacing: 5px;
     font-size: 30px;
+}
+
+/**Slider**/
+.slider-container {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left-slide {
+    height: 100%;
+    width: 30%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.left-slide > div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.left-slide h1 {
+    font-size: 40px;
+    margin: 20px;
+    margin-top: -90px;
+}
+.left-slide ol {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.right-slide {
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 30%;
+    width: 70%;
+}
+.right-slide > div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+    color: #aaa;
+}
+button:hover {
+    color: #222;
+}
+.slider-container .action-buttons button {
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    z-index: 100;
+}
+.slider-container .action-buttons .down-button {
+    transform: translateX(-100%);
+}
+.slider-container .action-buttons .up-button {
+    transform: translateY(-100%);
 }
